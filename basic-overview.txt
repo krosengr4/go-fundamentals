@@ -1,0 +1,12 @@
+Programming language Go (GoLang) is primarily known and used as a backend language
+Go excels in building server-side apps, APIs, microservices and distributed systems
+This is due to its performance, concurrency features, and efficient resource management
+
+Go is a statically typed language but does offer type inference (so you can declare variables without stating their data type)
+
+Software platforms like Docker, Kubernetes, and Terraform take advantage of the power and simplicity of Go to provide solid foundations for complex modern systems
+
+Package Architecture:
+    - Directory within a module
+    - Contains at lease one source file
+    - All members are visible to other package members
