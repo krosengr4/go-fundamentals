@@ -1,5 +1,12 @@
 # This course covers:
-1) The basics
-2) Go's control flow
-3) Creating and organizing Go programs
-4) Go's concurrency mechanism
+1) Getting started
+2) Variables and simple data types
+3) Creating and debugging programs
+4) Aggregate data type
+5) Looping
+6) Branching
+7) Organizing Programs
+8) Object orientation and polymorphism
+9) Error managment
+10) Concurrent programing 
+11) Testing
