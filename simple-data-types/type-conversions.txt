@@ -1,0 +1,10 @@
+- Let's say we have two variables:
+    - var x int = 32
+    - var y float32
+
+- saying "y = x" to convert x to a float32 would give an error
+    - this is because Go does not support implicit conversions
+
+- type conversions allow for explicit conversions:
+    - y = float32(x)
+    - converts x into a type float32

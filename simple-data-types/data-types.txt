@@ -1,0 +1,6 @@
+- Simple data types are data types that contain one and can only contain one value
+- Ex: Strings, numbers, booleans, and errors
+
+- Error type:
+    - The error built-in interface type is the conventional interface for representing an error condition.
+    - The nil value(absence of a value) represents no error

@@ -1,0 +1,14 @@
+Variable declaration:
+    - var myName string
+
+Declaration and initialization:
+    - var myName string = "Alejandro"
+
+This is a little redundant.
+Go is statically typed but also has a inference component so we can declare and init like:
+    - var myName = "Gustavius III"
+
+... and it gets even shorter using short declaration syntax:
+    - myName := "Rodger"
+    - the ":=" says that it is a Variable
+    
