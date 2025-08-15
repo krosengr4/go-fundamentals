@@ -11,4 +11,11 @@ Go is statically typed but also has a inference component so we can declare and 
 ... and it gets even shorter using short declaration syntax:
     - myName := "Rodger"
     - the ":=" says that it is a Variable
-    
+
+
+And if you thought it couldn't get any quirkier...
+Go allows for multiple variables to be initialized at once:
+    - a, b := 10, 5
+    - This would be like typing:
+        - var a int = 10 || var a = 10 || a := 10
+        - var b int = 5 || var b = 5 || b := 5

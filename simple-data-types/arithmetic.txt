@@ -1,0 +1,32 @@
+var a = 10
+var b = 5
+
+Addition
+    - c := a + b
+    - c = 15
+
+Subtraction
+    - c := a - b
+    - c = 5
+
+Multiplication
+    - c := a * b
+    - c = 50
+
+Division
+    - c := a / b 
+    - c = 2
+
+Integer Division
+- It is important to note that when dividing in Go, the dividened will always be a whole number, even if their is a remainder
+    - c := a / 3
+    - c = 3 (the remainder would be lost)
+
+Floating division
+- if we divided two float types, we would get a float back if there is a remainder
+    - d := 7.0 / 2.0
+    - d = 3.5
+
+Modulus(remainder of the division)
+    - c := a % 3
+    - c = 1
