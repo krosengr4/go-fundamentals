@@ -1,0 +1,30 @@
+- Constants are variables that can't be changed after it has been declared
+    - Constants must always be assigned a value
+    - Constants must be calculable at compile time (constants cannot be assigned a function)
+
+- Examples:
+    - const a = 42 (implicitly typed)
+    - const b string = "Hello, world!" (explicitly typed)
+    - const c = a (constants can be assigned to other constants)
+
+Constant groups allow for multiple constants to be declared at one time
+    - const (
+        d = true
+        e = 3.14159
+    )
+
+- In constant groups, if a constant is not assigned a value, Go will assign the value from above
+    - const (
+        a = "foo"
+        b       //the value of b would be "foo" 
+    )
+
+*** iota ***
+- the value of iota is related to a position in a constant group
+- the value of iota resets when moved to another constant block
+- example 
+    const (
+        b = iota        // 0 (first position)
+        c               // 1 (second position)
+        d = 3 * iota    // 6 (3 * 2nd position)
+    )
