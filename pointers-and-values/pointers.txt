@@ -1,0 +1,17 @@
+Pointer syntax
+    - a := 42
+    - b := &a
+
+- We use pointers to hold memory addresses.
+- This is so we can change the value of a, after b is declared as a pointer to a, and b would change as well.
+
+- Derefrencing the pointer using the *
+    - *b = "New value"
+
+- Built in new() function creates a pointer to anonymous variable
+    - c = new(int)
+
+- When using pointers, we share memory
+
+*** POINTERS ARE USED PRIMARILY TO SHARE MEMORY ***
+*** USE COPIES WHENEVER POSSIBLE ***
