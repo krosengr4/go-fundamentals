@@ -1,9 +1,9 @@
 package main
 
-import(
-	"os"
-	"net/http"
+import (
 	"io"
+	"net/http"
+	"os"
 )
 
 func main() {
