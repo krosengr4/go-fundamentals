@@ -7,6 +7,9 @@
     - const b string = "Hello, world!" (explicitly typed)
     - const c = a (constants can be assigned to other constants)
 
+- *** With constant expressions, the expression HAS to be evaluated at compile time!
+    - A constant cannot = a function
+
 Constant groups allow for multiple constants to be declared at one time
     - const (
         d = true
