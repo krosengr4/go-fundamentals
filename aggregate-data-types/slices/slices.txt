@@ -1,0 +1,20 @@
+                        ---SLICES---
+
+- Simply put a slice is an underlying subset of an array
+- To create a slice we define a starting point and a length of an array
+    - We take a "slice" out of an array
+
+- * Slices do not contain their own data. They are reference types
+- If we make a change to a value in the slice, it will also change the value in the array that we "sliced" from
+
+- Slices are dynamic, meaning that we can grow the size of the slice
+
+- Using Go syntax:
+    - var s []int       //slices of an int
+    - This slice^ has the value of nil
+        - nil is a special value in Go meaning that it is uninitialized
+    - s = []int{1, 2, 3}        //slice literal
+    - Use append to add new values to the end of the slice.
+        - s = append(s, 10, 100)        //s now = [1, 2, 3, 10, 100]
+            - This will actually create a new slice that copies original and adds the new values
+            

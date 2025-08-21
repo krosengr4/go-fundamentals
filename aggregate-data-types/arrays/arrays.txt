@@ -1,5 +1,5 @@
         *** ARRAYS ***
-        (hoo(array))
+        (HIP HIP... ARRAY!)
 
 - An array is a fixed sized collection of a single data-type
     - An array of ints
