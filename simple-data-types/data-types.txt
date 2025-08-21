@@ -1,6 +1,30 @@
 - Simple data types are data types that contain one and can only contain one value
 - Ex: Strings, numbers, booleans, and errors
 
+- ***STRINGS***
+    - "this is a string" (interperated string)
+    - `this is also a string` (raw string)
+    - raw strings will ignore escape characters such as \n
+    - ex:
+        - "hello \n this is on a new line"
+        - `hello \n this will be on the same line`
+
+- ***NUMBERS***
+    - integers (int)
+    - unsigned integers (uint)
+    - floats (float32, float64)
+    - Complex numbers (complex64, complex128)
+
+- ***BOOLEAN***
+    - true or false
+
+- ***ERROR TYPE***
+    - The error built-in interface type is the conventional interface for representing an error
+    - The nil value representing no error
+    - type error interface {
+        Error() string
+    }
+
 - Error type:
     - The error built-in interface type is the conventional interface for representing an error condition.
     - The nil value(absence of a value) represents no error
