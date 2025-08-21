@@ -1,0 +1,20 @@
+            -----MAPS-----
+
+- Maps are dynamic
+    - They can change sizes
+
+- Key Value Pairs (KVP)
+    - Instead of pairing a value to an index (arrays), we pair a value to a key
+
+- Maps are reference types like slices
+
+- Syntax
+    - var m map[string]int
+        - declaring a map where the key is string type and the values are integer types
+    - m = map[string]int {"foo": 1, "bar": 2}      // map literal
+
+- You cannot rely on the ordering of a map
+    - They are not ordered
+
+
+
