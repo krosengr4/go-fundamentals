@@ -1,0 +1,27 @@
+        *** ARRAYS ***
+        (hoo(array))
+
+- An array is a fixed sized collection of a single data-type
+    - An array of ints
+    - An array of strings
+- The memory associated with an array will be split up into even sized boxes
+- 0 indexed
+
+- *** in Go, arrays are a static data structure(not dynamic) ***
+    - This means that they will never change size after instantiated
+    - Cannot add to Arrays in Go
+        - However, you can use slices and append to the end
+        - Initialize a slice from an array or create a new one directly
+
+- Declaring an array:
+    - var arr [3]int        //an array of 3 ints
+        - [0, 0, 0]
+    - arr = [3]int{1, 2, 3}     //array literal
+        - [1, 2, 3]
+    - arr[1] = 99       //update value in the array
+        - [1, 99, 3]
+
+- *** Be aware of using pointers or reference types with arrays
+    - This is because aggregate data is not consistent in how it behaves
+    - * When setting one array as a pointer to another (arr = arr2), they are independent of eachother
+        - They have their own memory and store their data seperately
