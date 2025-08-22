@@ -33,3 +33,8 @@
     - a.name = "Mike"   //assign value to field
     - a.age = 192
     - fmt.Println(a.name)   //query value of the name field
+
+
+- To declare the signature of a struct, we are going to create a type to reference the struct
+    - Create a custom type
+    - Makes using the struct more efficient (can get lengthy without)
