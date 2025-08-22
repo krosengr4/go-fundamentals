@@ -10,7 +10,7 @@ func main() {
 	players := []string{
 		"Dent, Bucky",
 		"Jeter, Derek",
-		"Schmidt, Mike",
+		"Schmidt, Mike", //<--- Even though there is nothing after, this must end with a comma
 	}
 
 	jerseyNumbers := []int{20, 2, 20}
