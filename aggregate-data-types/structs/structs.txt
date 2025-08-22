@@ -38,3 +38,22 @@
 - To declare the signature of a struct, we are going to create a type to reference the struct
     - Create a custom type
     - Makes using the struct more efficient (can get lengthy without)
+
+- Create custom type based on struct
+    - type myStruct struct{
+        name string
+        age int
+    }
+- Declare a variable w3ith the custom type
+    - var a myStruct
+- Struct literal
+    - a = myStruct{
+        name: "Robert"
+        age: 12        
+    }
+
+- structs are *value* types and not reference types so:
+    - a2 = a 
+    - This is going to copy a into a our new var(a2) by value 
+    - So any value that is made in a will not change the value of a2. Vice versa
+    
