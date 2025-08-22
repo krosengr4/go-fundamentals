@@ -9,6 +9,9 @@
 
 - Slices are dynamic, meaning that we can grow the size of the slice
 
+- Slices are *reference* types
+    - So printing out a slice that has been declared but not instantiated will print nil (not 0 or null)
+
 - Using Go syntax:
     - var s []int       //slices of an int
     - This slice^ has the value of nil

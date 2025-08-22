@@ -28,5 +28,4 @@ func main() {
 	fmt.Println(baseballPlayers[2]+":", numbers[baseballPlayers[2]])
 	fmt.Println(baseballPlayers[3]+":", numbers[baseballPlayers[3]])
 	fmt.Println("Sum of all numbers:", sumOfNumbers)
-
 }

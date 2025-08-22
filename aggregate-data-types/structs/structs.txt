@@ -1,0 +1,35 @@
+            -----STRUCTS-----
+
+- In everything so far, our collection of data has all been one kind of data type(arrays, slices, maps)
+    - Even in maps all the keys had to be one type and all values had to be one type
+
+- A struct is a fixed sized collection that can have multiple data types
+    - Similar to array(fixed size) but can allow many types
+
+- A struct is a *value type*
+    - So, printing a struct that has been declared and not instantiated will print out 0 (not nil)
+
+- A struct has a:
+    - A unique field name
+    - A unique type
+    - A value 
+
+    - Ex:
+        - field name = name
+        - type = string
+        - value = "Mike"
+
+        - field name = age
+        - type = int
+        - value = 192
+
+- Syntax:
+    - var a struct{
+        name string
+        age int
+    }
+    - fmt.Println(a)    //{"" 0}
+
+    - a.name = "Mike"   //assign value to field
+    - a.age = 192
+    - fmt.Println(a.name)   //query value of the name field

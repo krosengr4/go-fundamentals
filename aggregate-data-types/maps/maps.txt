@@ -6,7 +6,8 @@
 - Key Value Pairs (KVP)
     - Instead of pairing a value to an index (arrays), we pair a value to a key
 
-- Maps are reference types like slices
+- Maps are *reference* types like slices
+    - So printing out a map that has been declared but not instantiated will print nil (not 0 or null)
 
 - Syntax
     - var m map[string]int
