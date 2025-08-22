@@ -1,3 +1,3 @@
-module structs-demo
+module main
 
 go 1.25.0
