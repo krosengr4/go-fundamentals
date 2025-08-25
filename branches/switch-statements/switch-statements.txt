@@ -1,0 +1,27 @@
+                    -----SWITCH STATEMENTS-----
+
+- Syntax
+    - switch condition-expression {
+        case expression1:
+            statements
+        case expression2, 3:
+            statements 
+    }
+
+- We can have multiple case statements within the switch
+- Go supports multiple evaluations so that our cases can have multiple expressions
+    - If either expression 2 or 3, we will run that case
+
+
+- You can use an initialization before the expression in switch statements
+    - ex:
+        - switch i:=1; i {
+            case 1:
+                print("i = 1")
+            case 2:
+                print("i = 2")
+            case 987:
+                print("i = 987")
+            default:
+                print("default case")
+        }
