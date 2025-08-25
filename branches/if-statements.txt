@@ -1,2 +1,17 @@
                 -----IF STATEMENTS-----
 
+- if *test* {...}
+    - the test is simply a condition that will evaluate to either true or false
+
+- an else block can be added
+    - if test {...}
+    - else {...}
+
+- an else if block can also be added
+
+- if test {...}
+- else if test {...}
+- else {...}
+
+- You can add the optional initializer expression that allows you to do some initialization work in the context of the if statement
+    - if initializer; test {...}
